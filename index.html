@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Flashcard Quiz</h1>
+
+        <div class="card">
+            <p class="card-number" id="cardNumber">Card 1 of 3</p>
+
+            <h2>Question</h2>
+            <p id="question">What is Python?</p>
+
+            <div id="answerBox" class="answer hidden">
+                <h2>Answer</h2>
+                <p id="answer">Python is a programming language.</p>
+            </div>
+
+            <button id="showAnswerBtn">Show Answer</button>
+        </div>
+
+        <div class="navigation">
+            <button id="previousBtn">⬅ Previous</button>
+            <button id="nextBtn">Next ➡</button>
+        </div>
+
+        <div class="actions">
+            <button id="addBtn">➕ Add</button>
+            <button id="editBtn">✏️ Edit</button>
+            <button id="deleteBtn">🗑️ Delete</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
